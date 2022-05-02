@@ -29,10 +29,10 @@ function draw() {
   background("white");
   
   drawSprites();
-  garden.velocityX = -2;
-  if (garden.x < 155) {
-     garden.x = 245
-  }
+ // garden.velocityX = -1;
+  //if (garden.x < 155) {
+    // garden.x = 245
+  //}
   
   // boy moving on Xaxis with mouse'
   rabbit.x = World.mouseX;
